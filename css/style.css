@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+   background-image:url('../img/background-image.jpg');
+  background-size: cover;
+  background-position: center; 
+  backdrop-filter: blur(10px);
+
+}
+
+.card {
+  box-sizing: border-box;
+  background-color: #1E352F;
+  text-align: center;
+  color: #A1E8AF;
+  padding: 10px 20px;
+  border-radius: 50px;
+  height: 610px;
+  margin-bottom: 250px;
+  margin-right: 43%;
+}
+
+.textos {
+  font-family: 'Roboto';
+  margin: 30px 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+ 
+.title {
+  font-size: 60px;
+  font-weight: 30px;
+  color: #fff;
+  padding: 50px 200px 800px 200px;
+  
+}  
+
+p { 
+   font-size: 15px;
+   margin-top: 20px;
+   font-weight: 300;
+   max-width: 300px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  margin: 2rem 1rem;
+}
+
+li {
+  font-family: 'Roboto';
+  background-color: #335145;
+  width: 250px;
+  padding: 17px 0;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+li:hover {
+  transform: scale(1.15);
+
+}
+
+
+a {
+  text-decoration: none;
+  color: #BEEF9E;
+}
+
+
+.imagem-estilizada {
+  border-radius: 50%;
+  width: 140px;
+  margin-top: 20px;
+  pointer-events: none;
+}
+
+.imagem-blur {
+  filter: blur(3px);
+}
